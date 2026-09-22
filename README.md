@@ -110,11 +110,6 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-### Option C — execute all notebooks from the command line
-
-```bash
-python scripts/run_all_notebooks.py
-```
 
 Executed notebook copies are written to `executed_notebooks/`; research outputs are written to `project_delay_outputs/`.
 
@@ -141,27 +136,11 @@ The large generated dataset and fitted models are ignored by Git by default. Thi
 - Baseline binary class balance is intentionally created using a median probability threshold; it is **not** an estimate of real-world delay prevalence.
 - Target-derived and post-outcome fields are excluded from training to avoid direct leakage; structural circularity remains because retained predictors participate in synthetic target generation.
 
-See [`docs/reproducibility.md`](docs/reproducibility.md) for full details.
 
 ## Data and code availability
 
-The synthetic dataset is generated entirely by Notebook 01 and can be regenerated from the source code. Before journal submission, create a public GitHub release and a Zenodo archive, then replace the placeholders below.
+The synthetic dataset is generated entirely by Notebook 01 and can be regenerated from the source code. 
 
-- GitHub: `https://github.com/YOUR_GITHUB_USERNAME/project-delay-risk-prediction`
-- Zenodo DOI: `https://doi.org/10.5281/zenodo.XXXXXXX`
-
-## Licensing
-
-The repository includes **recommended draft licenses**:
-
-- Code: MIT
-- Synthetic data and documentation: CC BY 4.0
-
-Confirm these choices with all authors and any applicable institutional requirements before making the repository public. See [`licenses/README.md`](licenses/README.md).
-
-## Citation
-
-Use the metadata in [`CITATION.cff`](CITATION.cff). After creating the Zenodo archive, add the DOI to both `CITATION.cff` and `.zenodo.json`.
 
 ## Associated manuscript
 
