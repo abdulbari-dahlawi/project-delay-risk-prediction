@@ -103,7 +103,7 @@ jupyter lab
 ```
 
 
-Executed notebook copies are written to `executed_notebooks/`; research outputs are written to `project_delay_outputs/`.
+Research outputs are written to `project_delay_outputs/`.
 
 ## Output structure
 
