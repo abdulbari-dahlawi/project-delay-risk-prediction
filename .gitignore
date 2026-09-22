@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+executed_notebooks/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated research outputs
+project_delay_outputs/data/synthetic_project_delay_dataset.csv
+project_delay_outputs/models/*
+project_delay_outputs/results/*
+project_delay_outputs/plots/*
+!project_delay_outputs/README.md
+
+# Optional user project input
+data/new_project.csv
+
+# Large/binary artifacts
+*.keras
+*.pkl
+*.joblib
+*.h5
+
+# Temporary exports
+*.tmp
+~$*

@@ -1,0 +1,5 @@
+Variable,Generation_Method,Range_or_Clipping,Use_in_Model,Reason_Excluded
+Actual_Duration_Days,"Planned_Duration_Days * (1 + overrun_ratio); overrun_ratio ~ clipped Normal(0.22,0.14) for Delayed=1 and clipped Normal(-0.03,0.06) for Delayed=0",Delayed ratio clipped 0.02–0.90; non-delayed ratio clipped -0.20–0.08,False,Generated after the synthetic target and would create post-outcome leakage.
+Time_Overrun_Percent,(Actual_Duration_Days - Planned_Duration_Days) / Planned_Duration_Days * 100,Derived from actual and planned duration,False,Post-target descriptive field.
+Rule_Score,Sum of the 11 exact interaction-rule adjustments,Derived,False,Directly participates in target construction.
+Project_ID,Sequential synthetic identifier P-00001 ... P-500000,Unique identifier,False,Identifier with no predictive meaning.

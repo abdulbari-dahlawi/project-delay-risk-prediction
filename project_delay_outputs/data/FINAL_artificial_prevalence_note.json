@@ -1,0 +1,4 @@
+{
+  "baseline_threshold_method": "median of synthetic Delay_Probability_True",
+  "interpretation": "Designed benchmark balance. The approximately 50/50 delayed/non-delayed distribution is not an estimate of real project delay prevalence."
+}

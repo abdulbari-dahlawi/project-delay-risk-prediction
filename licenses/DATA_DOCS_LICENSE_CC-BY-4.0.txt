@@ -1,0 +1,5 @@
+Recommended license for the synthetic dataset and original documentation: Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Official license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Before public release, confirm this licensing choice with all authors and any applicable institutional requirements.

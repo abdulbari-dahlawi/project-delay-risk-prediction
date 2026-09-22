@@ -1,0 +1,46 @@
+Column,Description
+Project_ID,Unique synthetic project ID
+Project_Type,Synthetic predictor generated according to generation_specification.csv
+Sector,Synthetic predictor generated according to generation_specification.csv
+Region,Synthetic predictor generated according to generation_specification.csv
+Contract_Type,Synthetic predictor generated according to generation_specification.csv
+Procurement_Method,Synthetic predictor generated according to generation_specification.csv
+Complexity_Level,Synthetic predictor generated according to generation_specification.csv
+Complexity_Score,Synthetic predictor generated according to generation_specification.csv
+Planned_Duration_Days,Synthetic predictor generated according to generation_specification.csv
+Planned_Budget_Million,Synthetic predictor generated according to generation_specification.csv
+Schedule_Buffer_Percent,Synthetic predictor generated according to generation_specification.csv
+Scope_Clarity_Score,Synthetic predictor generated according to generation_specification.csv
+Stakeholder_Communication_Score,Synthetic predictor generated according to generation_specification.csv
+Coordination_Score,Synthetic predictor generated according to generation_specification.csv
+Contractor_Experience_Score,Synthetic predictor generated according to generation_specification.csv
+Project_Manager_Experience_Years,Synthetic predictor generated according to generation_specification.csv
+Resource_Availability_Score,Synthetic predictor generated according to generation_specification.csv
+Labor_Productivity_Score,Synthetic predictor generated according to generation_specification.csv
+Equipment_Availability_Score,Synthetic predictor generated according to generation_specification.csv
+Supplier_Reliability_Score,Synthetic predictor generated according to generation_specification.csv
+Contractor_Financial_Stability,Synthetic predictor generated according to generation_specification.csv
+Owner_Decision_Speed_Score,Synthetic predictor generated according to generation_specification.csv
+BIM_Adoption_Level,Synthetic predictor generated according to generation_specification.csv
+AI_Tools_Adoption_Level,Synthetic predictor generated according to generation_specification.csv
+Authorities_Involved,Synthetic predictor generated according to generation_specification.csv
+Approval_Per_Authority_Days,Synthetic predictor generated according to generation_specification.csv
+Approval_Duration_Days,Synthetic predictor generated according to generation_specification.csv
+Design_Change_Count,Synthetic predictor generated according to generation_specification.csv
+Change_Request_Count,Synthetic predictor generated according to generation_specification.csv
+Procurement_Lead_Time_Days,Synthetic predictor generated according to generation_specification.csv
+Payment_Delay_Days,Synthetic predictor generated according to generation_specification.csv
+Quality_Defect_Rate,Synthetic predictor generated according to generation_specification.csv
+Safety_Incident_Count,Synthetic predictor generated according to generation_specification.csv
+Weather_Risk_Score,Synthetic predictor generated according to generation_specification.csv
+Permit_Risk_Score,Synthetic predictor generated according to generation_specification.csv
+Inflation_Risk_Score,Synthetic predictor generated according to generation_specification.csv
+Site_Condition_Risk_Score,Synthetic predictor generated according to generation_specification.csv
+Force_Majeure_Flag,Synthetic predictor generated according to generation_specification.csv
+External_Risk_Score,Synthetic predictor generated according to generation_specification.csv
+Delay_Probability_True,Synthetic delay probability used to generate the label
+Delayed,"Binary synthetic target: 1 means delayed, 0 means not delayed"
+Delay_Risk_Level,"Synthetic multiclass risk target: Low, Medium, High"
+Actual_Duration_Days,Generated post-target duration for descriptive analysis only
+Time_Overrun_Percent,Generated post-target time overrun for descriptive analysis only
+Rule_Score,Rule-based score component used during synthetic target generation

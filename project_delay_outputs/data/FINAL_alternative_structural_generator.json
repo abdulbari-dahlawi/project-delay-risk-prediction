@@ -1,0 +1,38 @@
+{
+  "name": "Alternative_Structure_A",
+  "purpose": "Stress-test transfer to a deliberately changed synthetic mechanism; not proposed as a more realistic population model.",
+  "coefficient_changes": {
+    "Complexity_Score": {
+      "baseline": 0.34,
+      "alternative": 0.22
+    },
+    "Approval_Duration_Days": {
+      "baseline": 0.012,
+      "alternative": 0.007
+    },
+    "Procurement_Lead_Time_Days": {
+      "baseline": 0.012,
+      "alternative": 0.02
+    },
+    "Payment_Delay_Days": {
+      "baseline": 0.018,
+      "alternative": 0.027
+    },
+    "Coordination_Score": {
+      "baseline": -0.09,
+      "alternative": -0.13
+    },
+    "BIM_Adoption_Level": {
+      "baseline": -0.18,
+      "alternative": -0.08
+    }
+  },
+  "rule_changes": {
+    "remove_rule": "BIM_Adoption_Level >= 2 AND Coordination_Score >= 7",
+    "modify_financial_rule": "Contractor_Financial_Stability < 5 AND Payment_Delay_Days > 30 with adjustment +0.50 instead of >20 with +0.75",
+    "remove_protective_rule": "Schedule_Buffer_Percent >= 12 AND Scope_Clarity_Score >= 7"
+  },
+  "noise_sd": 0.45,
+  "target_prevalence_method": "median threshold unless prevalence-sensitivity experiment overrides it",
+  "evidence_basis": "Researcher-defined structural stress test"
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Explainable Project Delay Risk Prediction with Synthetic Data: Reproducibility Package"
+message: "If you use this software or synthetic benchmark, please cite this repository and the associated manuscript."
+type: software
+authors:
+  - family-names: Dahlawi
+    given-names: Abdulbari Othman
+    orcid: "https://orcid.org/0009-0009-5293-5901"
+    affiliation: "Saudi Electronic University"
+  - family-names: Shaban
+    given-names: Khaled
+    affiliation: "Saudi Electronic University"
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/project-delay-risk-prediction"
+version: "1.0.0"
+date-released: "2026-09-22"
+keywords:
+  - project delay risk
+  - synthetic data
+  - machine learning
+  - deep learning
+  - explainable artificial intelligence
+  - SHAP
+  - XGBoost
+  - probability calibration
+  - scenario-based decision support

@@ -1,0 +1,19 @@
+name: project-delay-publication
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.4.4
+      - pandas==3.0.2
+      - scikit-learn==1.8.0
+      - joblib==1.5.3
+      - xgboost==3.2.0
+      - tensorflow==2.21.0
+      - shap==0.51.0
+      - matplotlib
+      - psutil
+      - jupyterlab>=4,<5
+      - nbconvert>=7,<8
+      - nbformat>=5,<6

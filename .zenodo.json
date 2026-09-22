@@ -1,0 +1,29 @@
+{
+  "title": "Explainable Project Delay Risk Prediction with Synthetic Data: Reproducibility Package",
+  "upload_type": "software",
+  "description": "Synthetic-data project delay-risk prediction, internal validation, calibration, explainable AI, and constrained scenario-sensitivity analysis. No real Saudi or Vision 2030 project records are included.",
+  "creators": [
+    {
+      "name": "Dahlawi, Abdulbari Othman",
+      "orcid": "0009-0009-5293-5901",
+      "affiliation": "Saudi Electronic University"
+    },
+    {
+      "name": "Shaban, Khaled",
+      "affiliation": "Saudi Electronic University"
+    }
+  ],
+  "keywords": [
+    "project delay risk",
+    "synthetic data",
+    "machine learning",
+    "deep learning",
+    "XAI",
+    "SHAP",
+    "XGBoost",
+    "probability calibration",
+    "scenario sensitivity"
+  ],
+  "access_right": "open",
+  "notes": "Before release, confirm the repository licenses and replace placeholder repository/DOI metadata."
+}

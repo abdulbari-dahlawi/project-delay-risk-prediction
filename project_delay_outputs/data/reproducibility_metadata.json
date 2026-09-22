@@ -1,0 +1,17 @@
+{
+  "generator_notebook": "01_generate_project_delay_dataset.ipynb",
+  "generator_version": "1.1-journal-methodology-revision",
+  "python_version": "3.11.15",
+  "numpy_version": "2.4.4",
+  "pandas_version": "3.0.2",
+  "random_seed": 42,
+  "dataset_size": 500000,
+  "noise_distribution": "Normal(mean=0, sd=0.45)",
+  "binary_threshold_rule": "median of Delay_Probability_True after rounding to 4 decimals",
+  "binary_threshold_baseline": 0.016,
+  "low_risk_quantile_threshold_baseline": 0.0088,
+  "high_risk_quantile_threshold_baseline": 0.0301,
+  "target_probability_transform": "sigmoid(linear_score)",
+  "baseline_missing_values_total": 0,
+  "artificial_prevalence_note": "Median threshold deliberately creates approximately 50/50 benchmark; not real-world prevalence."
+}
