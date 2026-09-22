@@ -3,7 +3,7 @@
 Reproducibility package for a **synthetic-data proof-of-concept framework** that combines project-delay risk prediction, internal robustness testing, probability calibration, explainable AI, and constrained scenario-based sensitivity analysis.
 
 > **Scope statement**  
-> This repository does **not** contain real Saudi, Saudi Vision 2030, or organizational project records. The 500,000 project records are synthetic. Numerical distributions, category probabilities, clipping ranges, coefficients, thresholds, and interaction magnitudes are simulation settings unless explicitly supported by a cited source. Reported performance is internal to the synthetic benchmark and is not evidence of external validity or causal effect.
+> This repository does **not** contain real Saudi, Saudi Vision 2030, or organizational project records. The 500,000 project records are synthetic. Numerical distributions, category probabilities, clipping ranges, coefficients, thresholds, and interaction magnitudes are simulation settings unless explicitly supported by a cited source. 
 
 ## Authors
 
@@ -29,9 +29,6 @@ project-delay-risk-prediction/
 │   ├── 02_train_validate_models.ipynb
 │   ├── 03_scenario_decision_support.ipynb
 │   └── 04_explainable_ai.ipynb
-├── scripts/
-│   ├── run_all_notebooks.py
-│   └── validate_repository.py
 ├── docs/
 │   ├── methodology_overview.md
 │   ├── synthetic_generator_specification.md
@@ -47,14 +44,9 @@ project-delay-risk-prediction/
 │   └── README.md
 ├── results/
 │   └── README.md
-├── project_delay_outputs/
-│   └── README.md
-├── paper/
-│   └── README.md
-└── licenses/
-    ├── CODE_LICENSE_MIT.txt
-    ├── DATA_DOCS_LICENSE_CC-BY-4.0.txt
+└── project_delay_outputs/
     └── README.md
+    
 ```
 
 ## Main methodological components
@@ -125,7 +117,7 @@ project_delay_outputs/
 └── plots/     # figures produced by the scenario engine
 ```
 
-The large generated dataset and fitted models are ignored by Git by default. This prevents accidental commits of large binary artifacts. For archival publication, deposit them in Zenodo and link the DOI from this README.
+
 
 ## Reproducibility notes
 
@@ -142,6 +134,4 @@ The large generated dataset and fitted models are ignored by Git by default. Thi
 The synthetic dataset is generated entirely by Notebook 01 and can be regenerated from the source code. 
 
 
-## Associated manuscript
 
-The associated manuscript is a synthetic-data methodological proof of concept. The repository intentionally avoids including reviewer comments or unpublished manuscript drafts by default. See [`paper/README.md`](paper/README.md) for publication-package guidance.
